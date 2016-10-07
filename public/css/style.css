@@ -1,0 +1,147 @@
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+    outline: 0;
+}
+
+body {font-family: roboto}
+h2 {font-family:'ubuntu'; font-size: 30px; margin:80px auto 50px auto; text-align: center; text-transform: uppercase; color:#333333; z-index:3; font-weight: 500}
+
+.ytp-gradient-top {display:none;}
+.ytp-thumbnail.lazyYT-image-loaded button.ytp-button {visibility: hidden !important}
+.ytp-thumbnail.lazyYT-image-loaded:hover button.ytp-button {visibility: visible !important}
+
+.displayTable {display:table; width:100%; height:100%}
+.displayCell {display: table-cell; width:100%; height:100%; vertical-align: middle}
+.nomb {margin-bottom:0}
+
+.menuBox {z-index:15; text-align:right; position:fixed; left:0; top:0; right:0; background:rgba(0, 0, 0 ,0.2); font-weight: 300; font-family: roboto; text-transform: uppercase; font-size:13px; color:white; }
+.menuBox .menu {padding:0; margin:8px 0; text-align: center; font-size: inherit}
+.menuBox .menu li {display: inline-block; color:white; margin:0 20px;}
+.menuBox .menu a {color:inherit;  text-decoration: none}
+.menuBox .menu a:hover {color:#F4E1B0}
+.menuBox .home {width:16px; height:16px; position: relative; top:-3px}
+.menuBox .menuButton {cursor:pointer; text-align:center; margin:17px 0;}
+.menuBox .qn {height:33px}
+.menuBoxUp {-webkit-animation: menuBackgroundUp 0.5s forwards; animation: menuBackgroundUp 0.5s forwards}
+.menuBoxDown {-webkit-animation: menuBackgroundDown 0.5s forwards; animation: menuBackgroundDown 0.5s forwards}
+
+.startBox {overflow:hidden}
+.startBox .info {color:white; text-align: center; padding:0 10px; text-transform: uppercase;}
+.startBox .name {text-shadow: 0 0 2px rgba(0,0,0,0.4);font-family:'ubuntu'; margin:0 0 20px 0; font-size: 58px; font-weight:500; line-height: 1.2; color:white}
+.startBox .state {text-transform: none;font-weight: 300; font-size: 17px; margin:0}
+.startBox .edition {font-weight: 500; font-size: 14px;  margin:10px }
+.startBox .border {padding:45px 0; border:1px solid white}
+.startBox .arrow {height:0; position: relative; top:75px; -webkit-animation: arrowBounce 1.7s infinite; animation: arrowBounce 1.7s infinite;}
+.startBox .displayCell {box-shadow: 0 -29px 30px -30px rgba(0, 0, 0, 0.3) inset;}
+.startBox .arrowLink {width: 40px;height: 40px;display: inline-block;background: url(/images/arrow-small.png) no-repeat center center #4998c3;border-radius: 40px;}
+.startBoxIe {background:url(/images/start-bg.jpg) no-repeat center center; background-size: cover}
+
+.skillsBox {text-align: center; background:#fbfbfb; padding-bottom: 50px}
+.skillsBox .name {font-family:'roboto'; text-transform: uppercase; font-size:18px; color:#232323; font-weight: 500; margin:0px 0 8px 0}
+.skillsBox .text {color:#444444; font-weight: 300; font-size:14px; line-height: 21px; margin-bottom: 45px;}
+.skillsBox .icons {margin:0 auto 20px auto; display:block; background: url(/images/skills.png); width:100px; height:100px; }
+.skillsBox .ico-1 {background-position: -67px -38px}
+.skillsBox .ico-2 {background-position: -318px -38px}
+.skillsBox .ico-3 {background-position: -580px -38px}
+.skillsBox .ico-4 {background-position: -834px -38px}
+.skillsBox .ico-5 {background-position: -67px -289px}
+.skillsBox .ico-6 {background-position: -318px -289px}
+.skillsBox .ico-7 {background-position: -580px -290px}
+.skillsBox .ico-8 {background-position: -834px -289px}
+
+.aboutTrainingBox {padding-bottom:150px; background:#4998c3  ; color:white; /*box-shadow: 0 30px 30px -30px rgba(0, 0, 0, 0.1) inset*/}
+.aboutTrainingBox h2 {color:white;}
+.aboutTrainingBox .in {position:relative; vertical-align: top; left:-3px; top:20px}
+.aboutTrainingBox .me {}
+.aboutTrainingBox p {color:white; font-size: 15px; font-weight: 300; margin-bottom: 24px}
+.aboutTrainingBox .icons {vertical-align: middle; margin:40px 0 0 0}
+.aboutTrainingBox .icons img {  max-height: 40px; max-width: 104px;}
+.aboutTrainingBox .bold {font-weight:400}
+.aboutTrainingBox .imgrow {position: relative}
+.aboutTrainingBox .linkedin {width:50px; position: absolute; left:10px; bottom:10px}
+.aboutTrainingBox .button {font-size: 19px; display: inline-block;background: #f39c12;color: white;padding: 13px 18px; margin-top:30px}
+.aboutTrainingBox .buttonWrap {margin:20px 0; text-align: center}
+.aboutTrainingBox .button:hover {background:#ffb43e}
+.aboutTrainingBox .cleft {text-align:right; font-size:20px}
+.aboutTrainingBox .cright {text-align:left; font-size:20px}
+.aboutTrainingBox .params {line-height: 1.6}    
+.aboutTrainingBox .promo { font-size:20px ; margin-top: 23px;text-align: center; color: rgb(255, 215, 43);}
+
+.trainerBox {font-weight:300; padding-bottom: 50px; background: #411c33 }
+.trainerBox h2 {color:white; }
+.trainerBox p {color:white}
+.trainerBox h3 a {color:inherit}
+.trainerBox h3 a:hover {color:#558497}
+.trainerBox .ks {margin:50px 0; font-size: 23px;font-weight: 400;color: white;text-align: center;font-family: roboto;}
+.trainerBox .ks span {display: block}
+.trainerBox .yt {height:35px; margin:0 10px}
+.trainerBox .fb {height:35px; margin:0 10px}
+.trainerBox .sIco {text-align:center}
+.trainerBox .js-lazyYT {margin:10px 0;box-shadow: 0 0 3px rgba(0,0,0,0.2); border-radius:2px}
+.trainerBox .link {font-weight:600; color:#f5b35f}
+.trainerBox .logo {text-align:center; margin-bottom: 25px; margin-top:-100px}
+.trainerBox .ico {height:60px; margin:0 10px}
+.trainerBox .icoWrap {text-align:center}
+.trainerBox a:hover {color:#ffd9a9}
+
+.contactBox {background:#4998c3 ; padding:80px 0; color:white; /*box-shadow: 0 30px 30px -30px rgba(0, 0, 0, 0.1) inset*/}
+.contactBox h2 {color:white; margin-bottom:40px; margin-top:0px;}
+.contactBox p {font-weight:300; font-size:20px}
+.contactBox .em {font-weight:400;}
+.contactBox .em span {padding-left:35px; background:url(/images/mail-ico.png) no-repeat left 8px / 19px}
+.contactBox .tp {font-weight:400}
+.contactBox .tp span {padding-left:30px; background:url(/images/phone-ico.png) no-repeat left 5px / 19px}
+.contactBox a {color:inherit}
+.contactBox a:hover {text-decoration: underline}
+.mapBox {width:100%; height:600px}
+
+/* Smartfony */
+@media only screen and (max-width: 40em) {
+    .startBox .name {font-size: 24px}
+    .trainerBox ul {list-style-image: none; list-style-type: none}
+    .menuBox .menu li {margin:0 3px}
+    .aboutTrainingBox .linkedin {width:30px}
+    .trainerBox .ks span {display:inline}
+    .startBox .state {font-size: 16px;}
+    .aboutTrainingBox .promo {font-size:15px}
+}
+
+/* Tablety */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .startBox .name {font-size: 45px}
+    .trainerBox .ks span {display:inline}
+} 
+
+/* Animacje  */
+@-webkit-keyframes arrowBounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0)}
+    40% {-webkit-transform: translateY(-15px)}
+    60% {-webkit-transform: translateY(-10px)}
+}
+
+@keyframes arrowBounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0)}
+    40% {transform: translateY(-15px)}
+    60% {transform: translateY(-10px)}
+}
+
+/* Animacje menu */
+@-webkit-keyframes menuBackgroundUp {
+    0% {background:rgba(0, 0, 0,0.2)}
+    100% {background:rgba(0, 0, 0,0.95)}
+}
+
+@-webkit-keyframes menuBackgroundDown {
+    0% {background:rgba(10, 10, 10,0.9)}
+    100% {background:rgba(10, 10, 10,0.2)}
+}
+
+@keyframes menuBackgroundUp {
+    0% {background:rgba(10, 10, 10,0.2)}
+    100% {background:rgba(10, 10, 10,0.95)}
+}
+
+@keyframes menuBackgroundDown {
+    0% {background:rgba(10, 10, 10,0.9)}
+    100% {background:rgba(10, 10, 10,0.2)}
+}
